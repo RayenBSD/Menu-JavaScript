@@ -1,0 +1,89 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+header div {
+    width: 100%;
+    text-align: center;
+}
+header div h1 {
+    color: #102A42;
+    font-size: 40px;
+    font-weight: 700;
+}
+header div h1 u {
+    color: #C59D5F;
+}
+header nav ul {
+    list-style: none;
+}
+header nav ul li {
+    display: inline-block;
+    border: 3px solid #C59D5F;
+    border-radius: 8px;
+    margin: 0 10px;
+    transition: 0.5s ease-out;
+}
+header nav ul li:hover {
+    background-color: #C59D5F;
+}
+header nav ul li a {
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 500;
+    padding: 10px;
+    color: #102A42;
+    transition: 0.5s ease-in;
+}
+header nav ul li a:hover {
+    color: #f0f0f0;
+}
+hr {
+    width: 90%;
+    color: #a1a1a1;
+}
+article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+article section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;     
+    width: 40%;
+    margin: 10px 20px;
+}
+article section img {
+    height: 150px;
+    width: 200px;
+    border: 5px solid #C59D5F;
+    border-radius: 10px;
+}
+article section div {
+    margin: 0 0 0 10px;
+}
+article section div h3 {
+    color: #102A42;
+    letter-spacing: 2px;
+    font-size: medium;
+    text-transform: capitalize;
+}
+article section div h2 {
+    color: #C59D5F;
+    letter-spacing: 2px;
+    font-size: medium;
+}
+article section div p {
+    font-size: small;
+    font-weight: 600;
+    color: #7D95AB;
+}
